@@ -25,5 +25,11 @@ object MoreTools extends ModInitializer {
 		Registry.register(Registry.ITEM, pickaxes.SprucePickaxeItem.identifier(modId), pickaxes.SprucePickaxeItem.instance)
 		Registry.register(Registry.ITEM, shovels.SpruceShovelItem.identifier(modId), shovels.SpruceShovelItem.instance)
 		Registry.register(Registry.ITEM, swords.SpruceSwordItem.identifier(modId), swords.SpruceSwordItem.instance)
+
+		Registry.register(Registry.ITEM, axes.AcaciaAxeItem.identifier(modId), axes.AcaciaAxeItem.instance)
+		Registry.register(Registry.ITEM, hoes.AcaciaHoeItem.identifier(modId), hoes.AcaciaHoeItem.instance)
+		Registry.register(Registry.ITEM, pickaxes.AcaciaPickaxeItem.identifier(modId), pickaxes.AcaciaPickaxeItem.instance)
+		Registry.register(Registry.ITEM, shovels.AcaciaShovelItem.identifier(modId), shovels.AcaciaShovelItem.instance)
+		Registry.register(Registry.ITEM, swords.AcaciaSwordItem.identifier(modId), swords.AcaciaSwordItem.instance)
 	}
 }
