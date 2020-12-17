@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
       [
+        {"item":  "more_tools:acacia_shovel"},
+        {"item":  "more_tools:birch_shovel"},
+        {"item":  "more_tools:crimson_shovel"},
+        {"item":  "more_tools:dark_oak_shovel"},
+        {"item":  "more_tools:jungle_shovel"},
         {"item":  "more_tools:oak_shovel"},
         {"item":  "more_tools:spruce_shovel"},
-        {"item":  "more_tools:birch_shovel"},
-        {"item":  "more_tools:jungle_shovel"},
-        {"item":  "more_tools:acacia_shovel"},
-        {"item":  "more_tools:crimson_shovel"},
         {"item":  "more_tools:warped_shovel"}
       ]
   ],

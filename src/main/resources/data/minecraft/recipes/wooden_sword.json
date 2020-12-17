@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
       [
+        {"item":  "more_tools:acacia_sword"},
+        {"item":  "more_tools:birch_sword"},
+        {"item":  "more_tools:crimson_sword"},
+        {"item":  "more_tools:dark_oak_sword"},
+        {"item":  "more_tools:jungle_sword"},
         {"item":  "more_tools:oak_sword"},
         {"item":  "more_tools:spruce_sword"},
-        {"item":  "more_tools:birch_sword"},
-        {"item":  "more_tools:jungle_sword"},
-        {"item":  "more_tools:acacia_sword"},
-        {"item":  "more_tools:crimson_sword"},
         {"item":  "more_tools:warped_sword"}
       ]
   ],

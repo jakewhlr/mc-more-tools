@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX ",
-    "X| ",
+    "XXX",
+    " | ",
     " | "
   ],
   "key": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "more_tools:warped_axe",
+    "item": "more_tools:warped_pickaxe",
     "count": 1
   }
 }

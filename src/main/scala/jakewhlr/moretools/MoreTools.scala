@@ -3,12 +3,11 @@ package jakewhlr.moretools
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.loader.api.FabricLoader
 import net.minecraft.util.registry.Registry
-
-import jakewhlr.moretools.items.axes
-import jakewhlr.moretools.items.hoes
-import jakewhlr.moretools.items.pickaxes
-import jakewhlr.moretools.items.shovels
-import jakewhlr.moretools.items.swords
+import jakewhlr.moretools.items.axes._
+import jakewhlr.moretools.items.hoes._
+import jakewhlr.moretools.items.pickaxes._
+import jakewhlr.moretools.items.shovels._
+import jakewhlr.moretools.items.swords._
 
 
 object MoreTools extends ModInitializer {
@@ -20,16 +19,54 @@ object MoreTools extends ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		Registry.register(Registry.ITEM, axes.SpruceAxeItem.identifier(modId), axes.SpruceAxeItem.instance)
-		Registry.register(Registry.ITEM, hoes.SpruceHoeItem.identifier(modId), hoes.SpruceHoeItem.instance)
-		Registry.register(Registry.ITEM, pickaxes.SprucePickaxeItem.identifier(modId), pickaxes.SprucePickaxeItem.instance)
-		Registry.register(Registry.ITEM, shovels.SpruceShovelItem.identifier(modId), shovels.SpruceShovelItem.instance)
-		Registry.register(Registry.ITEM, swords.SpruceSwordItem.identifier(modId), swords.SpruceSwordItem.instance)
+		// axes
+		AcaciaAxeItem.register()
+		BirchAxeItem.register()
+		CrimsonAxeItem.register()
+		DarkOakAxeItem.register()
+		JungleAxeItem.register()
+		OakAxeItem.register()
+		SpruceAxeItem.register()
+		WarpedAxeItem.register()
 
-		Registry.register(Registry.ITEM, axes.AcaciaAxeItem.identifier(modId), axes.AcaciaAxeItem.instance)
-		Registry.register(Registry.ITEM, hoes.AcaciaHoeItem.identifier(modId), hoes.AcaciaHoeItem.instance)
-		Registry.register(Registry.ITEM, pickaxes.AcaciaPickaxeItem.identifier(modId), pickaxes.AcaciaPickaxeItem.instance)
-		Registry.register(Registry.ITEM, shovels.AcaciaShovelItem.identifier(modId), shovels.AcaciaShovelItem.instance)
-		Registry.register(Registry.ITEM, swords.AcaciaSwordItem.identifier(modId), swords.AcaciaSwordItem.instance)
+		// hoes
+		AcaciaHoeItem.register()
+		BirchHoeItem.register()
+		CrimsonHoeItem.register()
+		DarkOakHoeItem.register()
+		JungleHoeItem.register()
+		OakHoeItem.register()
+		SpruceHoeItem.register()
+		WarpedHoeItem.register()
+
+		// pickaxes
+		AcaciaPickaxeItem.register()
+		BirchPickaxeItem.register()
+		CrimsonPickaxeItem.register()
+		DarkOakPickaxeItem.register()
+		JunglePickaxeItem.register()
+		OakPickaxeItem.register()
+		SprucePickaxeItem.register()
+		WarpedPickaxeItem.register()
+
+		// shovels
+		AcaciaShovelItem.register()
+		BirchShovelItem.register()
+		CrimsonShovelItem.register()
+		DarkOakShovelItem.register()
+		JungleShovelItem.register()
+		OakShovelItem.register()
+		SpruceShovelItem.register()
+		WarpedShovelItem.register()
+
+		// swords
+		AcaciaSwordItem.register()
+		BirchSwordItem.register()
+		CrimsonSwordItem.register()
+		DarkOakSwordItem.register()
+		JungleSwordItem.register()
+		OakSwordItem.register()
+		SpruceSwordItem.register()
+		WarpedSwordItem.register()
 	}
 }

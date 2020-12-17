@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
+    "XX ",
     " | ",
     " | "
   ],
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "more_tools:acacia_pickaxe",
+    "item": "more_tools:acacia_hoe",
     "count": 1
   }
 }
