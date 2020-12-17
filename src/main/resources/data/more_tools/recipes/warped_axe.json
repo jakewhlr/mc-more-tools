@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "X| ",
+    " | "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:warped_planks"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "more_tools:warped_axe",
+    "count": 1
+  }
+}

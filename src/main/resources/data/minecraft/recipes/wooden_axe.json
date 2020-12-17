@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      [
+        {"item":  "more_tools:oak_axe"},
+        {"item":  "more_tools:spruce_axe"},
+        {"item":  "more_tools:birch_axe"},
+        {"item":  "more_tools:jungle_axe"},
+        {"item":  "more_tools:acacia_axe"},
+        {"item":  "more_tools:crimson_axe"},
+        {"item":  "more_tools:warped_axe"}
+      ]
+  ],
+  "result": {
+    "item": "minecraft:wooden_axe",
+    "count": 1
+  }
+}

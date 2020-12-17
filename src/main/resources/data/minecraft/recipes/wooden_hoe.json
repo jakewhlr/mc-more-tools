@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      [
+        {"item":  "more_tools:oak_hoe"},
+        {"item":  "more_tools:spruce_hoe"},
+        {"item":  "more_tools:birch_hoe"},
+        {"item":  "more_tools:jungle_hoe"},
+        {"item":  "more_tools:acacia_hoe"},
+        {"item":  "more_tools:crimson_hoe"},
+        {"item":  "more_tools:warped_hoe"}
+      ]
+  ],
+  "result": {
+    "item": "minecraft:wooden_hoe",
+    "count": 1
+  }
+}

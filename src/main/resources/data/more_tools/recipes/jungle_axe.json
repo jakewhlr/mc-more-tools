@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "X| ",
+    " | "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jungle_planks"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "more_tools:jungle_axe",
+    "count": 1
+  }
+}
