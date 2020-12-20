@@ -1,9 +1,10 @@
 package jakewhlr.moretools.items.toolmaterials
 
-import net.minecraft.item.{Items, ToolMaterial}
+import net.minecraft.item.Items
 import net.minecraft.recipe.Ingredient
 
-object AcaciaToolMaterial extends ToolMaterial{
+object AcaciaToolMaterial extends CustomToolMaterial {
+  val material: String = "acacia"
   def craftingIngredient: Ingredient = Ingredient.ofItems(Items.ACACIA_PLANKS)
   override def getDurability: Int = 59
   override def getMiningSpeedMultiplier: Float = 1

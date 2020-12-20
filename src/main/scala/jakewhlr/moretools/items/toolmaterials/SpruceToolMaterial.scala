@@ -3,7 +3,8 @@ package jakewhlr.moretools.items.toolmaterials
 import net.minecraft.item.{Items, ToolMaterial}
 import net.minecraft.recipe.Ingredient
 
-object SpruceToolMaterial extends ToolMaterial{
+object SpruceToolMaterial extends CustomToolMaterial{
+  val material: String = "spruce"
   override def getDurability: Int = 59
   override def getMiningSpeedMultiplier: Float = 1
   override def getAttackDamage: Float = 1

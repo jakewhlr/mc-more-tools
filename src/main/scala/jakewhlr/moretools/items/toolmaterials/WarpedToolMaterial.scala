@@ -3,7 +3,8 @@ package jakewhlr.moretools.items.toolmaterials
 import net.minecraft.item.{Items, ToolMaterial}
 import net.minecraft.recipe.Ingredient
 
-object WarpedToolMaterial extends ToolMaterial{
+object WarpedToolMaterial extends CustomToolMaterial{
+  val material: String = "warped"
   def craftingIngredient: Ingredient = Ingredient.ofItems(Items.WARPED_PLANKS)
   override def getDurability: Int = 59
   override def getMiningSpeedMultiplier: Float = 1

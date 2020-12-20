@@ -3,7 +3,8 @@ package jakewhlr.moretools.items.toolmaterials
 import net.minecraft.item.{Items, ToolMaterial}
 import net.minecraft.recipe.Ingredient
 
-object CrimsonToolMaterial extends ToolMaterial{
+object CrimsonToolMaterial extends CustomToolMaterial{
+  val material: String = "crimson"
   def craftingIngredient: Ingredient = Ingredient.ofItems(Items.CRIMSON_PLANKS)
   override def getDurability: Int = 59
   override def getMiningSpeedMultiplier: Float = 1
